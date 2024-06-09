@@ -19,15 +19,7 @@ const BannerSection = () => {
         className="hidden lg:block absolute right-0 top-[10px]"
         alt="star"
       />
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{
-          opacity: 1,
-          transition: { delay: 0.2, duration: 0.5 },
-        }}
-        viewport={{ once: true, amount: 0.2 }}
-        className="bg-[url('./banner.png')] max-w-[1300px] mx-auto h-[550px] bg-no-repeat bg-cover lg:bg-center bg-center p-10"
-      >
+      <div className="bg-[url('banner.png')] max-w-[1300px] mx-auto h-[550px] bg-no-repeat bg-cover lg:bg-center bg-center p-10">
         <div className="text-white">
           <motion.h1
             initial={{ opacity: 0 }}
@@ -63,7 +55,7 @@ const BannerSection = () => {
             Download App <FaApple />
           </motion.button>
         </div>
-      </motion.div>
+      </div>
     </section>
   );
 };
