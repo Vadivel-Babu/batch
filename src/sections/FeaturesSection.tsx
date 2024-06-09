@@ -22,7 +22,11 @@ const FeaturesSection = () => {
         viewport={{ once: true, amount: 0.2 }}
         className="relative flex-1"
       >
-        <img src="./feature.png" className="h-[500px] lg:h-[750px]" alt="" />
+        <img
+          src="./feature.png"
+          className="w-[400px] h-[400px] lg:w-[750px] lg:h-[750px]"
+          alt=""
+        />
         <img
           src="./featuregradient.png"
           className="absolute top-0 z-[-1]"
