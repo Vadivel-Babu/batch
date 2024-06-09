@@ -26,7 +26,7 @@ const BannerSection = () => {
           transition: { delay: 0.2, duration: 0.5 },
         }}
         viewport={{ once: true, amount: 0.2 }}
-        className="bg-banner max-w-[1300px] mx-auto h-[550px] bg-no-repeat bg-cover lg:bg-center bg-center p-10"
+        className="bg-[url('./banner.png')] max-w-[1300px] mx-auto h-[550px] bg-no-repeat bg-cover lg:bg-center bg-center p-10"
       >
         <div className="text-white">
           <motion.h1

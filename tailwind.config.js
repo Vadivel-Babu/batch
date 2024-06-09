@@ -7,9 +7,6 @@ export default {
       colors: {
         orange: "#FF5555",
       },
-      backgroundImage: {
-        banner: "url('./banner.png')",
-      },
     },
     fontFamily: {
       clash: ["Clash Display", "sans-serif"],
