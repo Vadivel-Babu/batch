@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import Diamond from "../uicomponents/Diamond";
 
 const Customize = () => {
   return (

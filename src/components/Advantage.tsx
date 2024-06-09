@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import BellSvg from "../uicomponents/BellSvg";
 
 const Advantage = () => {
   return (
