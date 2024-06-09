@@ -16,6 +16,7 @@ const Menu = ({ handleTheme, onOpen, theme }) => {
           <a
             href="#home"
             className="hover:text-red-500 transition-all hover:font-bold"
+            onClick={() => onOpen(false)}
           >
             Home
           </a>
@@ -24,6 +25,7 @@ const Menu = ({ handleTheme, onOpen, theme }) => {
           <a
             href="#aboutus"
             className="hover:text-red-500 transition-all  hover:font-bold"
+            onClick={() => onOpen(false)}
           >
             About us
           </a>
@@ -32,6 +34,7 @@ const Menu = ({ handleTheme, onOpen, theme }) => {
           <a
             href="#price"
             className="hover:text-red-500 transition-all  hover:font-bold"
+            onClick={() => onOpen(false)}
           >
             Pricing
           </a>
@@ -40,6 +43,7 @@ const Menu = ({ handleTheme, onOpen, theme }) => {
           <a
             href="#features"
             className="hover:text-red-500 transition-all  hover:font-bold"
+            onClick={() => onOpen(false)}
           >
             features
           </a>
